@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Large datasets (downloadable via data/download_data.py)
+data/chest_xray/
+*.zip
+*.tar.gz
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.bin
+*.onnx
+*.h5
+
+# OS generated files
+.DS_Store
+Thumbs.db
